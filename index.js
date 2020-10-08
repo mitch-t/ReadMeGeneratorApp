@@ -49,8 +49,14 @@ const readMestring = `# ${data.projectname}
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/${data.github}/${data.reponame})
+![license-shield](https://img.shields.io/github/${data.license}/${data.github})
 
+//[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=flat-square
+[![MIT License][license-shield]][license-url]
 
+--TEST IS THE PROJECT NAME
+//![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
+//![AUR license](https://img.shields.io/aur/license/${data.projectname})
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -63,20 +69,22 @@ const readMestring = `# ${data.projectname}
 * [License](#license)
 * [Questions](#questions) 
 
-## About ${data.projectname}
+## About 
 ${data.projectname} - ${data.description}
 
-## Installing ${data.projectname}
+## Installing 
 To install ${data.projectname}, follow these steps: ${data.install}
 
 ## Using ${data.projectname}
 ${data.usage}
 
 ## Contributing to ${data.projectname}
+${data.contributing}
+
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Tests on ${data.projectname}
-How and what to test
+## Testing ${data.projectname}
+${data.test}
 
 ## Questions
 If you have any questions you can contact me at ${data.email}.
