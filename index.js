@@ -48,11 +48,7 @@ inquirer.prompt([
 const readMestring = `# ${data.projectname}
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub repo size](https://img.shields.io/github/repo-size/${data.github}/${data.reponame})
-
-![license-shield](https://img.shields.io/github/${data.license}/${data.github})
-
-![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/${data.github}/${data.reponame})![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -74,16 +70,27 @@ To install ${data.projectname}, follow these steps: ${data.install}
 ## Using ${data.projectname}
 ${data.usage}
 
-## Contributing to ${data.projectname}
+## Contributing:
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. 
+To contribute to ${data.projectname}, follow these steps:
+1. Fork the Project
+2. Create your Feature Branch 
+3. Commit your Changes 
+4. Push to the Branch 
+5. Open a Pull Request
+
 ${data.contributing}
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
 
 ## Testing ${data.projectname}
 ${data.test}
 
 ## Questions
-If you have any questions you can contact me at ${data.email}.
+If you have any questions you can contact me at ${data.email}:
+
 Github: https://github.com/${data.github}
 
 ## License
