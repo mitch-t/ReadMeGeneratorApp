@@ -15,7 +15,7 @@
 * [Questions](#questions) 
 
 ## About 
-ReadMeGeneratorApp - The objective of this app is to allow a user to create a good readme md document for a project repository.
+ReadMeGeneratorApp - The objective of this app is to allow a user to create a good readme md document for a project repository. This app will create a README.md using nodejs. The README will look a lot like this one. The template creates a table of contents with links. The README will also contain a repo size image and a license badge.
 
 ## Installing 
 To install ReadMeGeneratorApp, follow these steps: Must have a windows/mac/android machine with the latest version of nodejs installed.
