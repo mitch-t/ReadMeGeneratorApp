@@ -23,6 +23,11 @@ To install ReadMeGeneratorApp, follow these steps: Must have a windows/mac/andro
 ## Using ReadMeGeneratorApp
 Clone the repo into your local machine. Open the files in a code editor. In the terminal run node. When prompted with questions, answer them and a readme doc will be generated.
 
+## Screenshots:
+Question Prompt:
+![Screenshot (69)](https://user-images.githubusercontent.com/66184450/95547957-eecd5a80-09b8-11eb-95b0-aa0d01b46bf8.png)
+
+##README preview:
 ## Contributing:
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. 
