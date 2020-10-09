@@ -49,12 +49,10 @@ const readMestring = `# ${data.projectname}
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/${data.github}/${data.reponame})
-![AUR license](https://img.shields.io/aur/license/${data.projectname})
 
 ![license-shield](https://img.shields.io/github/${data.license}/${data.github})
 
-
-
+![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -109,7 +107,3 @@ This project uses the following license: [${data.license}](<link>).`
 //  [![MIT License][license-shield]][license-url]
 //[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=flat-square
 //[![MIT License][license-shield]][license-url]
-
-//TEST IS THE PROJECT NAME
-//![APM](https://img.shields.io/apm/l/test?style=for-the-badge)
-//
