@@ -109,8 +109,4 @@ This project uses the following license: [${data.license}](<link>).`
     });
   });
   
- // [license-shield]: (https://img.shields.io/github/${data.license}/${data.github}/repo.svg?style=flat-square)
-//  [license-url]: (https://github.com/${data.github}/${data.reponame}//blob/master/LICENSE.txt)
-//  [![MIT License][license-shield]][license-url]
-//[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=flat-square
-//[![MIT License][license-shield]][license-url]
+ 
